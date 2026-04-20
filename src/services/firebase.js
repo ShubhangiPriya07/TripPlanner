@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAp127rtdQfxZj9WTpLX6vw0ZQcsC_K9kc",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "trip-planner-520e1.firebaseapp.com",
   projectId: "trip-planner-520e1",
   storageBucket: "trip-planner-520e1.appspot.com",
